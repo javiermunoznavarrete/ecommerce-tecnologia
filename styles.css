@@ -1,0 +1,9 @@
+/* Ajustar el ancho del logo */
+.nav-width {
+    width: 10%;
+}
+
+/* Color de fondo para navbar, header y footer */
+.bg-light {
+    background-color: #d9d9d9 !important;
+}
