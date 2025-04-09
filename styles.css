@@ -7,3 +7,40 @@
 .bg-light {
     background-color: #d9d9d9 !important;
 }
+
+/* Estilos para el navbar */
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-color: black;
+    mask: url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3E%3Cpath stroke=%27white%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3E%3C/svg%3E');
+    -webkit-mask: url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3E%3Cpath stroke=%27white%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3E%3C/svg%3E');
+}
+
+/* Estilos para los enlaces del navbar */
+.navbar-nav .nav-link {
+    color: #000000 !important;
+}
+
+/* Estilos para el texto del carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 20px;
+}
+
+.carousel-caption h5 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    color: white;
+    margin-bottom: 0;
+}
+
+
